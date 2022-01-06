@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shared_preference_demo/UserPage.dart';
-import 'package:shared_preference_demo/utils/UserSimplePreference.dart';
+import 'package:shared_preference_demo/Simple_way/Simple_way_demo.dart';
+import 'package:shared_preference_demo/dip_dive/UserPage.dart';
+
+import 'dip_dive/utils/UserSimplePreference.dart';
 
 Future main()async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
           thumbColor: MaterialStateProperty.all(Colors.white),
         ),
       ),
-      home: UserPage(),
+      home: Simple_way_demo(),
       title: 'SharedPreference Demo',
     );
   }

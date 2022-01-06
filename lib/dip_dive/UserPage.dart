@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preference_demo/utils/UserSimplePreference.dart';
+import 'package:shared_preference_demo/dip_dive/utils/UserSimplePreference.dart';
 
 class UserPage extends StatefulWidget {
   const UserPage({Key? key}) : super(key: key);
